@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		719A5ABD1F2472CD00FCE1ED /* Orphe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719A5ABC1F2472CD00FCE1ED /* Orphe.framework */; };
+		719A5ABE1F2472CD00FCE1ED /* Orphe.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 719A5ABC1F2472CD00FCE1ED /* Orphe.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		71C043EE1F2B6B5F00612A83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C043E71F2B6B5F00612A83 /* AppDelegate.swift */; };
+		71C043EF1F2B6B5F00612A83 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71C043E81F2B6B5F00612A83 /* LaunchScreen.xib */; };
+		71C043F01F2B6B5F00612A83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C043EA1F2B6B5F00612A83 /* Main.storyboard */; };
+		71C043F11F2B6B5F00612A83 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71C043EC1F2B6B5F00612A83 /* Info.plist */; };
+		71C043F21F2B6B5F00612A83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C043ED1F2B6B5F00612A83 /* ViewController.swift */; };
+		71C043F81F2B6C2400612A83 /* BLECommonButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C043F61F2B6C2400612A83 /* BLECommonButton.m */; };
+		71C043F91F2B6C2400612A83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71C043F71F2B6C2400612A83 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		719A5ABF1F2472CD00FCE1ED /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				719A5ABE1F2472CD00FCE1ED /* Orphe.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		719A5ABC1F2472CD00FCE1ED /* Orphe.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Orphe.framework; sourceTree = "<group>"; };
+		71C043E71F2B6B5F00612A83 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71C043E91F2B6B5F00612A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		71C043EB1F2B6B5F00612A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71C043EC1F2B6B5F00612A83 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71C043ED1F2B6B5F00612A83 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71C043F41F2B6C2400612A83 /* BLEAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEAppearance.h; sourceTree = "<group>"; };
+		71C043F51F2B6C2400612A83 /* BLECommonButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLECommonButton.h; sourceTree = "<group>"; };
+		71C043F61F2B6C2400612A83 /* BLECommonButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLECommonButton.m; sourceTree = "<group>"; };
+		71C043F71F2B6C2400612A83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8A8DCF821A3AB30C00B4A3C3 /* BlueLightYokohama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueLightYokohama.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A8DCF7F1A3AB30C00B4A3C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719A5ABD1F2472CD00FCE1ED /* Orphe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71C043E61F2B6B5F00612A83 /* BlueLightYokohama */ = {
+			isa = PBXGroup;
+			children = (
+				71C043E71F2B6B5F00612A83 /* AppDelegate.swift */,
+				71C043E81F2B6B5F00612A83 /* LaunchScreen.xib */,
+				71C043EA1F2B6B5F00612A83 /* Main.storyboard */,
+				71C043EC1F2B6B5F00612A83 /* Info.plist */,
+				71C043ED1F2B6B5F00612A83 /* ViewController.swift */,
+			);
+			path = BlueLightYokohama;
+			sourceTree = "<group>";
+		};
+		71C043F31F2B6C2400612A83 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				71C043F41F2B6C2400612A83 /* BLEAppearance.h */,
+				71C043F51F2B6C2400612A83 /* BLECommonButton.h */,
+				71C043F61F2B6C2400612A83 /* BLECommonButton.m */,
+				71C043F71F2B6C2400612A83 /* Images.xcassets */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		8A8DCF791A3AB30C00B4A3C3 = {
+			isa = PBXGroup;
+			children = (
+				71C043F31F2B6C2400612A83 /* Common */,
+				71C043E61F2B6B5F00612A83 /* BlueLightYokohama */,
+				719A5ABC1F2472CD00FCE1ED /* Orphe.framework */,
+				8A8DCF831A3AB30C00B4A3C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A8DCF831A3AB30C00B4A3C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A8DCF821A3AB30C00B4A3C3 /* BlueLightYokohama.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A8DCF811A3AB30C00B4A3C3 /* BlueLightYokohama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A8DCFA11A3AB30C00B4A3C3 /* Build configuration list for PBXNativeTarget "BlueLightYokohama" */;
+			buildPhases = (
+				8A8DCF7E1A3AB30C00B4A3C3 /* Sources */,
+				8A8DCF7F1A3AB30C00B4A3C3 /* Frameworks */,
+				8A8DCF801A3AB30C00B4A3C3 /* Resources */,
+				719A5ABF1F2472CD00FCE1ED /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueLightYokohama;
+			productName = BLEWriteExample;
+			productReference = 8A8DCF821A3AB30C00B4A3C3 /* BlueLightYokohama.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A8DCF7A1A3AB30C00B4A3C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Shuichi Tsutsumi";
+				TargetAttributes = {
+					8A8DCF811A3AB30C00B4A3C3 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 8C64P29P3B;
+						LastSwiftMigration = 0830;
+					};
+				};
+			};
+			buildConfigurationList = 8A8DCF7D1A3AB30C00B4A3C3 /* Build configuration list for PBXProject "BlueLightYokohama" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A8DCF791A3AB30C00B4A3C3;
+			productRefGroup = 8A8DCF831A3AB30C00B4A3C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A8DCF811A3AB30C00B4A3C3 /* BlueLightYokohama */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A8DCF801A3AB30C00B4A3C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C043F11F2B6B5F00612A83 /* Info.plist in Resources */,
+				71C043F91F2B6C2400612A83 /* Images.xcassets in Resources */,
+				71C043F01F2B6B5F00612A83 /* Main.storyboard in Resources */,
+				71C043EF1F2B6B5F00612A83 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A8DCF7E1A3AB30C00B4A3C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C043F81F2B6C2400612A83 /* BLECommonButton.m in Sources */,
+				71C043F21F2B6B5F00612A83 /* ViewController.swift in Sources */,
+				71C043EE1F2B6B5F00612A83 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71C043E81F2B6B5F00612A83 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71C043E91F2B6B5F00612A83 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		71C043EA1F2B6B5F00612A83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71C043EB1F2B6B5F00612A83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A8DCF9F1A3AB30C00B4A3C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A8DCFA01A3AB30C00B4A3C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A8DCFA21A3AB30C00B4A3C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 8C64P29P3B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/BlueLightYokohama/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = konypro.BLEWriteExample;
+				PRODUCT_NAME = BlueLightYokohama;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8A8DCFA31A3AB30C00B4A3C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 8C64P29P3B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/BlueLightYokohama/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = konypro.BLEWriteExample;
+				PRODUCT_NAME = BlueLightYokohama;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A8DCF7D1A3AB30C00B4A3C3 /* Build configuration list for PBXProject "BlueLightYokohama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A8DCF9F1A3AB30C00B4A3C3 /* Debug */,
+				8A8DCFA01A3AB30C00B4A3C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A8DCFA11A3AB30C00B4A3C3 /* Build configuration list for PBXNativeTarget "BlueLightYokohama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A8DCFA21A3AB30C00B4A3C3 /* Debug */,
+				8A8DCFA31A3AB30C00B4A3C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A8DCF7A1A3AB30C00B4A3C3 /* Project object */;
+}
